@@ -13,3 +13,20 @@
 - yarn add react-router-dom
 - yarn add redux react-redux
 - yarn add react-bootstrap bootstrap
+```text
+// index.js 부트스트랩 세팅
+import 'bootstrap/dist/css/bootstrap.min.css';
+```
+
+###  .prettierrc 세팅
+```json
+
+{
+  "singleQuote": true,
+  "semi": true,
+  "tabWidth": "all",
+  "printWidth": 80
+}
+```
+
+
