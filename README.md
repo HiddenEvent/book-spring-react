@@ -20,7 +20,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 ###  .prettierrc 세팅
 ```json
-
 {
   "singleQuote": true,
   "semi": true,
