@@ -4,19 +4,22 @@ import BookItem from '../../components/BookItem';
 const Home = () => {
   const[books, setBooks] = useState([]);
 
-  // 함수 실행시 최초 한번 실행되는 것
+  // 함수 실행시 최초 한번 실행되는 것 + 상태값이 변경될때 마다 실행된다.
   useEffect(() => {
     fetch("http://localhost:8085/book")
     .then(res=> res.json())
     .then(res=>{
-      console.log(1, res)
+      console.log(1, res);
+      setBooks(res);
     }); // 비동기 함수
-  }, [books])
+  }, [])
 
 
     return (
         <div>
-          <BookItem/>
+          {books.map(book => (
+            <BookItem key={book.id} book={book}/>
+          ))}
         </div>
     );
 };
