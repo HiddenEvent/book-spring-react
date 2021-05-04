@@ -33,11 +33,17 @@ const SaveForm = (props) => {
         }
       })
       .then((res) => {
+        const test = res.status; // 강제 에러발생
         if (res !== null) {
           props.history.push('/');
         } else {
           alert('책 등록에 실패하였습니다.');
         }
+      })
+      //catch 는 then에서 오류가 나야 실행된다.
+      .catch((error) => {
+        console.log('에러');
+        console.log(error);
       });
   };
 
