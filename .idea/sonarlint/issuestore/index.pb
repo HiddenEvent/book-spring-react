@@ -11,3 +11,9 @@ X
 (book-frontend/src/components/BookItem.js,7\2\725b7d01b37871dc79afa7f84091ece40df0dc65
 T
 $book-frontend/src/pages/book/Home.js,7\6\76a29e31e24bc1377b8050f5d8de8d67c6e9b7a5
+I
+book-frontend/.prettierrc,f\0\f0f6a871d75f0848ced2b2ad4e822977685faa33
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+X
+(book-frontend/src/pages/book/SaveForm.js,a\6\a69f657b082d5cecd07987275e3edb8102ea157c

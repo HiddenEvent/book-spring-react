@@ -33,7 +33,7 @@ const SaveForm = (props) => {
         }
       })
       .then((res) => {
-        const test = res.status; // 강제 에러발생
+        console.log(res);
         if (res !== null) {
           props.history.push('/');
         } else {
