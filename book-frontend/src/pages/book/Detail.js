@@ -1,3 +1,4 @@
+import { Button } from 'bootstrap';
 import React, { useEffect, useState } from 'react';
 
 const Detail = (props) => {
@@ -15,9 +16,27 @@ const Detail = (props) => {
       });
   }, []);
 
+  const deleteBook = () => {
+    fetch('http://localhost:8085/book/' + id, {
+      method: 'DELETE',
+    })
+      .then((res) => res.text())
+      .then((res) => {
+        if (res === 'ok') {
+          props.history.push('/');
+        } else {
+          alert('삭제실패');
+        }
+      });
+  };
+
   return (
     <div>
       <h1>책 상세보기</h1>
+      <Button variant="warning">수정</Button>{' '}
+      <Button variant="danger" onClick={deleteBook}>
+        삭제
+      </Button>
       <hr />
       <h3>{book.author}</h3>
       <h4>{book.title}</h4>

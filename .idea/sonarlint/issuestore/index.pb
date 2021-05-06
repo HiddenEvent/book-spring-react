@@ -17,3 +17,5 @@ S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 X
 (book-frontend/src/pages/book/SaveForm.js,a\6\a69f657b082d5cecd07987275e3edb8102ea157c
+V
+&book-frontend/src/pages/book/Detail.js,c\c\ccc4765dddf224810b97ca5927c96be46518654e
