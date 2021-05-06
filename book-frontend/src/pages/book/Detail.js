@@ -1,5 +1,5 @@
-import { Button } from 'bootstrap';
 import React, { useEffect, useState } from 'react';
+import { Button } from 'react-bootstrap';
 
 const Detail = (props) => {
   const id = props.match.params.id;
