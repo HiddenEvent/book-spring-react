@@ -19,3 +19,11 @@ X
 (book-frontend/src/pages/book/SaveForm.js,a\6\a69f657b082d5cecd07987275e3edb8102ea157c
 V
 &book-frontend/src/pages/book/Detail.js,c\c\ccc4765dddf224810b97ca5927c96be46518654e
+t
+Dbook-backend/src/main/java/com/richard/book/service/BookService.java,a\2\a2aa00615d25dd522c2bc19801d5aa5518064b2e
+‡
+Wbook-backend/src/main/java/com/richard/book/config/BaseCodeLabelEnumJsonSerializer.java,c\a\cabee08c8549516fe8bd509e51347c094bc45503
+Z
+*book-frontend/src/pages/book/UpdateForm.js,7\7\7791abfcedc92c26caee013b2ee9abbabfd40d65
+p
+@book-backend/src/main/java/com/richard/book/BookApplication.java,e\c\ec8fc454b31088cba36b464ededc31d01ec3e8da

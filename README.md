@@ -28,4 +28,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 }
 ```
 
+```text
+// git pull 받고 실행하기위한 명령어  
+npm install
+npm start
 
+// 리액트 빌드하기
+npm run build
+
+```

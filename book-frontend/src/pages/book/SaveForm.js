@@ -1,5 +1,10 @@
 import React, { useState } from 'react';
 import { Form, Button } from 'react-bootstrap';
+//tui grid 추가
+import 'codemirror/lib/codemirror.css';
+import '@toast-ui/editor/dist/toastui-editor.css';
+import { Editor } from '@toast-ui/react-editor';
+// --
 
 //페이지 이동시 props 필요함
 const SaveForm = (props) => {
@@ -57,6 +62,7 @@ const SaveForm = (props) => {
         <Form.Label>Author</Form.Label>
         <Form.Control type="text" placeholder="Enter Author" onChange={changeValue} name="author" />
       </Form.Group>
+      <Editor initialValue="헬로헬로 나는 에디터야" usageStatistics={false} />
 
       <Button variant="primary" type="submit">
         Submit
